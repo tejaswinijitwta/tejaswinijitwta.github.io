@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <title>Gym Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2? family=Pooppins:wght@100;200;300;400;600;700&display=swap"rel="styleshet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="plan.html">PLANS</a></li>
+                    <li><a href="schedule.html">SCHEDULE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    
+                </ul> 
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>PLANS</h1>
+    </section>
+
+    <!-------------our plans------------------->
+
+    <section class="plan">
+        <h1>OUR PLANS</h1>
+        <div class="row">
+            <div class="btn-group">
+
+                <button><b>REGULAR MEMBERSHIP</b></button>
+                <button><b>REGULAR MEMBERSHIP</b></button>
+                <button><b>REGULAR MEMBERSHIP</b></button>
+
+            </div>
+
+
+            <div class="btn-group1">
+                <button><b>Rs.1500</button>
+                <button><b>Rs.2500</button>
+                <button><b>Rs.3500</button>  
+  
+            </div>
+
+
+            <div class="btn-group2">
+                <button>Free Tutorials<br><br><br>Aerobik Programmes<br><br><br>TrainerSupport><br><br><br>-<br><br><br>-<br><br></button>
+                <button>Free Tutorials<br><br><br>Aerobik Programmes<br><br><br>TrainerSupport><br><br><br>Fitness Orientation<br><br><br> -<br><br></button>
+                <button>Free Tutorials<br><br><br>Aerobik Programmes<br><br><br>TrainerSupport><br><br><br>Fitness Orientation<br><br><br>Morning &Evening<br> Batches<br></button>
+   
+  
+            </div>
+
+            <div class="btn-group3">
+
+ 
+                <button type="button" ><b><a href="join.html">Join Now</a></b></button>
+                <button type="button" ><b><a href="join.html">Join Now</a></b></button>
+                <button type="button" ><b><a href="join.html">Join Now</a></b></button>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+<!----------FOOTER SECTION---------->
+
+<section class="footer">
+    <h5>Copyright © All rights reserved by GYMNASIUM</h5>
+    
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</section>
+
+        
+
+
+
+
+
+
+
+    <!--------JavaScript for Toggle Menu--------->
+    
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-100px";
+        }
+    </script>
