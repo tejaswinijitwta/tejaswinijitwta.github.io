@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <title>Gym Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2? family=Pooppins:wght@100;200;300;400;600;700&display=swap"rel="styleshet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="plan.html">PLANS</a></li>
+                    <li><a href="schedule.html">SCHEDULE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul> 
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>GET READY TO BURN</h1>
+            <p>What Hurts Today Makes You Stronger Tomorrow</p>
+            <a href="join.html" class="btn">Join Now</a>
+        </div>
+    </section>
+    
+<!---------TESTINOMAL SECTION------------>
+
+<section class="testinomials">
+    <h1>WHAT OUR CLIENT SAYS</h1>
+    <div class="row">
+        <div class="testinomial-col">
+            <img src="images/client-1.jpg">
+            <div>
+                <h3>Manish Reddy</h3>
+                 <h4><i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i></h4>
+                 <p>Good customer experience. Great managment that actually listend to customer plight.Good customer experience.Highly recommended.</p>
+            </div>
+        </div>
+        <div class="testinomial-col">
+            <img src="images/client-2.jpg">
+            <div>
+                <h3>Deepa chowdary</h3>
+                 <h4><i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i></h4>
+                 <p>Good trainers and facilities are good. Reception and people are well behaved. I would recommend people to enroll to this gym.</p>
+            </div>
+        </div>
+        <div class="testinomial-col">
+            <img src="images/client-3.jpg">
+            <div>
+                <h3>Anand Naidu</h3>
+                 <h4><i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i></h4>
+                 <p>The quality of the equipments in the gym is excellent.Not to forget the FrontDesk has the best communication. They keep me updated with all the gym timings and payments. Best experience so far compared to any other gym. Would definitely recommend.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+<!----------FOOTER SECTION---------->
+
+<section class="footer">
+    <h5>Copyright © All rights reserved by GYMNASIUM</h5>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</section>
+
+        
+
+
+
+
+
+
+
+    <!--------JavaScript for Toggle Menu--------->
+    
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-100px";
+        }
+    </script>
